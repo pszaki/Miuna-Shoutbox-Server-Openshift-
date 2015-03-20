@@ -1,7 +1,7 @@
 var	port = process.env.OPENSHIFT_NODEJS_PORT,
 	ip = process.env.OPENSHIFT_NODEJS_IP;
 
-var http = require('http'),
+var http = require('http://proba.lkwrepman.eu'),
 	express = require('express'),
 	MiunaShoutServer = require('./lib/miunashout-server'),
 	app = express();
